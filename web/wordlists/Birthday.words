@@ -1,0 +1,61 @@
+TextEngine Word List
+
+@nouns
+@adjectives
+@verbs
+
+paradoxisms
+    paradox
+    land
+    TTFTCUT
+    cult
+    chandelier
+    tower
+    defense
+    refactor
+    minecraft
+    landscape
+    chariot
+    horse
+    projectile
+    dart
+    lie
+    birthday
+    christmas
+
+adj_size
+    @adj_small
+    @adj_large
+
+verb_baking
+    #verb_action#
+    #verb_programming#: 0.2
+
+ingredient
+    #noun_food#: 0.7
+    #noun#: 0.1
+    #paradoxisms#: 0.2
+    cake: 0.05
+
+temperature
+    celsius
+    fahrenheit
+    kelvin
+    north: 0.1
+    south: 0.1
+    east: 0.1
+    west: 0.1
+    of separation: 0.1
+
+cake_info
+    A #adj_positive# cake made from #exactAmount# #ingredient#s.
+    This cake is perfect for #noun# parties.
+    Otherwise known as the #adjective# #noun_animal# cake.
+    this cake takes #exactAmount# #noun_timeframe#s to prepare, because of the #ingredient#s.
+
+cake_step
+    preheat your #noun_object# to #exactAmount# degrees #temperature#.
+    #verb_baking# and #verb_baking# #exactAmount# #adj_size# cake#noun_object#s, or line with #noun_object#.
+    #verb_baking# together the #ingredient#, #ingredient#, #ingredient#, and #ingredient#.
+    #verb_baking# the #ingredient# until it is #adj_tactile#.
+    #verb_baking# until #adjective#.
